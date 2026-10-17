@@ -1,1 +1,40 @@
+# IDEs
 .idea/
+.vs/
+.vscode/
+*.user
+*.suo
+*.DotSettings.user
+
+# Saída de build (vale para qualquer projeto em qualquer pasta)
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Testes e cobertura
+TestResults/
+*.trx
+coverage*.xml
+coverage*.json
+*.coverage
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Publicação
+publish/
+PublishScripts/
+*.pubxml
+
+# Diagnóstico / dumps
+*.dmp
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
